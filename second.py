@@ -1,0 +1,7 @@
+c = input("Enter String")
+d = input("Enter the String to count")
+print(c.count(d))
+replaceString = input("Enter String to be replace")
+afterReplace = input("Enter String to replace ")
+e = c.replace(replaceString,afterReplace)
+print(e.upper())
