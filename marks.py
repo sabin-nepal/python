@@ -17,10 +17,11 @@
 #print("1\n2\n")
 
 name = input("Enter Your name")
-while name.isalpha()==True:
+while name.isalpha()==False or len(name) < 3:
+
     print("Wrong input")
     name = input("Enter Your name")
-    print(name)
+print(name)
 
 # year = int(input("Enter your birth year"))
 # age = 2019-year
@@ -28,3 +29,6 @@ while name.isalpha()==True:
 #     print("You are eligible")
 # else:
 #     print("You are noit");
+
+
+
