@@ -1,3 +1,4 @@
+#enter 10 number
 i=0
 list = []
 while i<10:
@@ -6,6 +7,8 @@ while i<10:
     i+=1
 
 print(list)
+
+##display only evenn number from a list
 
 #if length is unknown
 #size = len(list)
