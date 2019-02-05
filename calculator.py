@@ -1,4 +1,3 @@
-
 while 1:
     number1 = int(input("Enter first number"))
     number2 = int(input("Enter second number"))
