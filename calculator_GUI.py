@@ -11,7 +11,6 @@ def eqaul_to(num):
     global operators
     total = str(eval(operators))
     a.set(total)
-
 def clear():
     global operators
     operators=""
